@@ -11,9 +11,9 @@ function getComputerChoice() {
   // first generate a random number between one and three
   let choice = Math.trunc(Math.random() * 3) + 1
   // if choice is equal to 1 then the computer choice will be rock
-  if (choice == 1) return 'rock'
+  if (choice === 1) return 'rock'
   // if choice is equal to 2 then the computer choice will be paper
-  else if (choice == 2) return 'paper'
+  else if (choice === 2) return 'paper'
   // if choice is equal to 3 then the computer choice will be scissors
   else return 'scissors'
 }
